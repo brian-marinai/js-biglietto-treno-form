@@ -1,0 +1,52 @@
+body{
+  font-family: 'Lato', sans-serif;
+  padding: 1%;
+  background-color: #DCDCDC;
+}
+#contenitorenome{
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+#contenitorekm{
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+#contenitorecategoria{
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+body button{
+  border: solid 1px red;
+  background-color: white;
+  height: 30px;
+  width: 100px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+body button:hover{
+  background-color: red;
+  color: white;
+}
+
+.none{
+  opacity: 0;
+  transition: 1s;
+}
+
+.show{
+  opacity: 1;
+  transition: 1s;
+  background-color: lightgray;
+}
+
+/* tabella */
+.show table{
+  border-collapse: collapse;
+  width: 100%;
+}
+.show table td, th{
+  border: solid 1px black;
+  text-align: left;
+  padding: 10px;
+}
